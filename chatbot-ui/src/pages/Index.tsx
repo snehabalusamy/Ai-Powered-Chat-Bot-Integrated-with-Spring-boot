@@ -33,7 +33,7 @@ const Index = () => {
     document.documentElement.classList.toggle("dark", isDarkMode);
   }, [isDarkMode]);
 
-  const API_URL = "http://localhost:8080/api/chat";
+  const API_URL = "http://localhost:8085/api/chat";
 
   const handleSendMessage = async (message: string) => {
     const userMsg = {
